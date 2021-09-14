@@ -1,0 +1,360 @@
+﻿
+/*-----------------Comman Label / Textbox / Font Size / Page Loading-----------------*/
+        #Detail {
+            font-size: 13px;
+        }
+
+        .txtnew {
+            height: 28px;
+            font-size: 11px;
+    top: 0px;
+    left: 0px;
+}
+
+        .lblnew {
+            height: 15px;
+            font-size: 13px;
+        }
+
+        #res-btn {
+            position: absolute;
+            top: 520px;
+            left: 600px;            
+        }
+
+
+ /*------------------------------*/
+
+
+  /*-----------Page Loading Process--------------*/
+
+        /*.modal {
+            position: fixed;
+            top: 200px;
+            left: 300px;          
+            z-index: 99;
+            opacity: 0.8;
+            filter: alpha(opacity=80);
+            -moz-opacity: 0.8;
+            min-height: 100%;
+            width: 100%;
+        }
+
+        .loading {
+            
+            font-family: Arial;
+            font-size: 10pt;
+            margin-left:300px;
+            margin-top:95px;
+            width: 100px;
+            height: 100px;
+            display: none;
+            position: fixed;
+           
+            z-index: 999;
+        }*/
+      /*------------------------------*/
+
+ /*------------------------------------------*/
+
+.form-controlzz
+{
+    height:25px;
+}
+
+/*------------------------------Master-------------------------*/
+
+/*--- Pg Company Master Page---*/
+
+#CM-btn
+{
+    margin-top:20px;
+    left:300px;
+}
+
+/*------Client Entry------*/
+
+/*---- Pg Client Add---*/
+
+#CA-btn
+{
+    margin-top:30px;
+    left:30px;
+}
+
+/*--- Pg Add State---*/
+
+#CA-Add-Button
+{
+    margin-top:70px;
+    
+}
+
+/*--------------------------------*/
+
+/*--- Pg Salary Grade Master---*/
+
+#SGM-Label
+{
+    margin-top:110px;    
+}
+
+#SGM-btn
+{
+    margin-top:20px;
+    margin-left:270px;
+}
+
+/*---------------------------------*/
+
+
+/*--- Pg Qualification Master---*/
+
+#QM-btn
+{
+    margin-top:20px;
+    left:100px;
+}
+
+/*---------------------------------*/
+
+/*--- Pg Bank Branch Master---*/
+
+
+#BBM-btn
+{
+    margin-top:20px;
+    left:100px;
+}
+
+/*---------------------------------*/
+
+
+/*--- Pg Account Year Master---*/
+
+#AYM-Account-Year-Master
+{
+    margin-left:100px;
+}
+
+#AYM-btn
+{
+    margin-top:20px;
+    left:150px;
+}
+
+/*---------------------------------------------------------*/
+
+
+/*------------------------Employee Master--------------------------------*/
+
+/*---Pg New Resume Registration---*/
+
+.fluid
+{
+    padding-top:5px;
+}
+
+/*------------------------------*/
+
+/*---Pg Interview Schedule---*/
+
+#IF-Interview-Feedback
+{
+  margin-top:30px;
+  left:50px;
+}
+
+#IF-Interview-Feedback-btn
+{
+    margin-top:20px;
+    left:200px;
+}
+
+/*---------------------------------------*/
+
+/*-----------New Employee Registration--------------*/
+
+#space1
+{
+    height:1000px;
+    
+}
+
+#ENER-Pgx
+{  
+    top:0px;
+    background-color:#f8f9fa;
+    height:1100px;
+}
+
+
+#EPD-Bank-Detailsx
+{
+    position:absolute;
+    margin-left:358px;
+    top:380px;
+    
+}
+#EPD-Emergency-Contactx
+{
+     position:absolute;
+     margin-left:358px;
+     top:650px;
+}
+
+#EPD-marksx1
+{
+    position:absolute;
+    margin-left:350px;
+    top:1120px;   
+}
+
+.card-header
+{
+    background-color:#e0e0d1;
+}
+
+
+/*---------------------------------------*/
+
+/*----------Employee Offical Deatils --------------*/
+
+#ENER-Pg
+{
+    background-color:#f8f9fa;
+    height:1000px;
+}
+
+#EPD-Bank-Details
+{
+     position:absolute;
+     top:120px;
+     margin-left:360px;
+     margin-top:330px;
+}
+#EPD-Emergency-Contact
+{
+     position:absolute;
+     top:260px;
+     margin-left:360px;
+     margin-top:465px;
+}
+
+#EPD-marks
+{
+    position:absolute;
+    top:1170px;
+    margin-left:360px;
+}
+
+/*--------------------------------------------*/
+
+
+/*----------Employee Nominee Deatils--------------*/
+
+#ENER-Pg2
+{
+    background-color:#f8f9fa;
+
+    height:1000px;
+}
+
+#PF-Nominee-Details
+{   
+    top:0px;
+    
+}
+
+#Detailslast
+{
+    margin-left:0px;
+}
+
+
+/*--------------------------------------*/
+
+/*----------Employee Nominee Deatils--------------*/
+
+
+
+ /*----------------------------------*/
+
+
+ /*----------Employee Family Deatils--------------*/
+
+
+ #FD-btn
+{    
+    left:300px;
+}
+/*------------------------*/
+
+/*-----------------Comman Tableview-----------------*/
+
+#tableview-endview
+{
+    overflow-x:auto;
+    overflow-y:scroll;
+    height:400px;
+    width:1155px;
+    top: 0px;
+    left: 0px;
+}
+
+#tableview-frontview
+{
+    overflow-x:auto;
+    overflow-y:scroll;
+    height:400px;
+    width:500px;
+}
+
+#tableview-front
+{
+    overflow-x:auto;
+    overflow-y:scroll;
+    height:280px;
+    width:400px;
+}
+
+/*-----------------------------------------*/
+
+/*---------Allowances----------*/
+
+#btn-Allowances
+{
+
+    left:300px;
+}
+
+/*-----------------------------------------*/
+
+
+
+/*----Monthly Wage Generate----*/
+
+
+#MlyWageMessage
+{
+
+    position:absolute;
+    margin-left:700px;
+    margin-top:200px;
+    color:pink;
+}
+
+/*----------------*/
+
+.GVFixedHeader {
+    font-weight: bold;
+    background-color: Green;
+    position: relative;
+    top: expression(this.parentNode.parentNode.parentNode.scrollTop-1);
+}
+.GridViewContainer {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+ 

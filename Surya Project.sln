@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Surya Project", ".", "{2FA0DEA5-FDBA-48C8-9AB8-18C22E6639FD}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{c7d543af-f19b-49af-8194-c30b2c2ec4a4}|BLL.dll;{250004CA-F093-4059-881A-D74275CE1843}|DAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Project"
+		Debug.AspNetCompiler.PhysicalPath = "..\Surya Current Working Project\"
+		Debug.AspNetCompiler.TargetPath = "..\..\..\Project\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Project"
+		Release.AspNetCompiler.PhysicalPath = "..\Surya Current Working Project\"
+		Release.AspNetCompiler.TargetPath = "..\..\..\Project\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1291"
+		SlnRelativePath = "..\Surya Current Working Project\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{C7D543AF-F19B-49AF-8194-C30B2C2EC4A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{250004CA-F093-4059-881A-D74275CE1843}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FA0DEA5-FDBA-48C8-9AB8-18C22E6639FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA0DEA5-FDBA-48C8-9AB8-18C22E6639FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA0DEA5-FDBA-48C8-9AB8-18C22E6639FD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA0DEA5-FDBA-48C8-9AB8-18C22E6639FD}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C7D543AF-F19B-49AF-8194-C30B2C2EC4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D543AF-F19B-49AF-8194-C30B2C2EC4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D543AF-F19B-49AF-8194-C30B2C2EC4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D543AF-F19B-49AF-8194-C30B2C2EC4A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{250004CA-F093-4059-881A-D74275CE1843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{250004CA-F093-4059-881A-D74275CE1843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{250004CA-F093-4059-881A-D74275CE1843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{250004CA-F093-4059-881A-D74275CE1843}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
